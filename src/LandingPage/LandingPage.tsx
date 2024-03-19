@@ -4,9 +4,8 @@ import { Button, Flex, Heading, Text } from '@radix-ui/themes';
 import { FaceIcon, ImageIcon, SunIcon } from '@radix-ui/react-icons';
 
 const LandingPage: FC = () => {
-  const handleOnClick = () => {
-    console.log('Clicked');
-  };
+  const handleOnClick = () =>
+    window.open('https://github.com/Stefenyo/React-TS-Vite-RadixUI-Starter', '_blank');
 
   return (
     <StyledFlex align="center" pl="9">
